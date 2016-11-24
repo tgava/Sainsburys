@@ -13,6 +13,11 @@
 		591FCD2E1DE62B33002AF9FE /* Our_Products.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 591FCD2C1DE62B33002AF9FE /* Our_Products.xcdatamodeld */; };
 		591FCD301DE62B33002AF9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591FCD2F1DE62B33002AF9FE /* Assets.xcassets */; };
 		591FCD331DE62B33002AF9FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591FCD311DE62B33002AF9FE /* LaunchScreen.storyboard */; };
+		591FCD3B1DE62D1C002AF9FE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591FCD3A1DE62D11002AF9FE /* TableViewController.swift */; };
+		591FCD601DE692E2002AF9FE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591FCD5F1DE692E2002AF9FE /* Product.swift */; };
+		591FCD621DE693C3002AF9FE /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591FCD611DE693C3002AF9FE /* Quake.swift */; };
+		5945813A1DE73A1500F6F116 /* quakeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594581381DE73A1500F6F116 /* quakeDetailViewController.swift */; };
+		5945813B1DE73A1500F6F116 /* quakeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594581391DE73A1500F6F116 /* quakeDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		591FCD2F1DE62B33002AF9FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		591FCD321DE62B33002AF9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		591FCD341DE62B33002AF9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591FCD3A1DE62D11002AF9FE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		591FCD5F1DE692E2002AF9FE /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		591FCD611DE693C3002AF9FE /* Quake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		594581381DE73A1500F6F116 /* quakeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quakeDetailViewController.swift; sourceTree = "<group>"; };
+		594581391DE73A1500F6F116 /* quakeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = quakeDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				591FCD251DE62B33002AF9FE /* AppDelegate.swift */,
 				591FCD271DE62B33002AF9FE /* ViewController.swift */,
 				591FCD291DE62B33002AF9FE /* Main.storyboard */,
+				591FCD3A1DE62D11002AF9FE /* TableViewController.swift */,
+				594581381DE73A1500F6F116 /* quakeDetailViewController.swift */,
+				591FCD5F1DE692E2002AF9FE /* Product.swift */,
+				591FCD611DE693C3002AF9FE /* Quake.swift */,
 				591FCD2F1DE62B33002AF9FE /* Assets.xcassets */,
 				591FCD311DE62B33002AF9FE /* LaunchScreen.storyboard */,
 				591FCD341DE62B33002AF9FE /* Info.plist */,
 				591FCD2C1DE62B33002AF9FE /* Our_Products.xcdatamodeld */,
+				594581391DE73A1500F6F116 /* quakeDetailViewController.xib */,
 			);
 			path = "Our Products";
 			sourceTree = "<group>";
@@ -130,6 +145,7 @@
 				591FCD331DE62B33002AF9FE /* LaunchScreen.storyboard in Resources */,
 				591FCD301DE62B33002AF9FE /* Assets.xcassets in Resources */,
 				591FCD2B1DE62B33002AF9FE /* Main.storyboard in Resources */,
+				5945813B1DE73A1500F6F116 /* quakeDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				591FCD2E1DE62B33002AF9FE /* Our_Products.xcdatamodeld in Sources */,
+				5945813A1DE73A1500F6F116 /* quakeDetailViewController.swift in Sources */,
+				591FCD621DE693C3002AF9FE /* Quake.swift in Sources */,
 				591FCD281DE62B33002AF9FE /* ViewController.swift in Sources */,
+				591FCD601DE692E2002AF9FE /* Product.swift in Sources */,
 				591FCD261DE62B33002AF9FE /* AppDelegate.swift in Sources */,
+				591FCD3B1DE62D1C002AF9FE /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +326,7 @@
 				591FCD391DE62B33002AF9FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
